@@ -1,0 +1,7 @@
+- id: git-portable-paths
+  name: Git path portability
+  description: Audit the complete index for portable path spellings
+  entry: git-portable-paths --index
+  language: python
+  pass_filenames: false
+  always_run: true
